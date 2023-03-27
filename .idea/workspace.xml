@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created ApiGateway">
-      <change afterPath="$PROJECT_DIR$/SpotifyApiGateway/src/main/java/com/niit/bej/config/RouterConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created RouterConfiguration.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpotifyApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApiGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApiGateway/src/main/java/com/niit/bej/config/RouterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApiGateway/src/main/java/com/niit/bej/config/RouterConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApiGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UserTrackService" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpotifyApiGateway" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -115,14 +114,7 @@
       <workItem from="1679895577037" duration="4016000" />
       <workItem from="1679900113114" duration="17000" />
       <workItem from="1679900133632" duration="1323000" />
-      <workItem from="1679901658440" duration="32225000" />
-    </task>
-    <task id="LOCAL-00014" summary="created UserAlreadyExistException.java">
-      <created>1679895246930</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1679895246930</updated>
+      <workItem from="1679901658440" duration="33010000" />
     </task>
     <task id="LOCAL-00015" summary="created login method in UserAuthService">
       <created>1679895729971</created>
@@ -460,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679935223859</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="created RouterConfiguration.java">
+      <created>1679935583029</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1679935583029</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created hasCode() and equals() for Playlist.java" />
     <MESSAGE value="created toString() for Playlist.java" />
     <MESSAGE value="created User.java" />
     <MESSAGE value="added fields for User.java" />
@@ -504,7 +502,8 @@
     <MESSAGE value="created addSongsToPlaylist() in UserTrackService" />
     <MESSAGE value="All methods implemented in Controller" />
     <MESSAGE value="created ApiGateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="created ApiGateway" />
+    <MESSAGE value="created RouterConfiguration.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="created RouterConfiguration.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
