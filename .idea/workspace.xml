@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created application.yml for userTrackService">
+    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created addSongsToPlaylist() in UserTrackService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/controller/UserAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/controller/UserAuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/security/JwtSecurityTokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/security/JwtSecurityTokenGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/UserTrackServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/UserTrackServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/controller/UserTrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/controller/UserTrackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/filter/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/proxy/UserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/proxy/UserProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,14 +107,7 @@
       <workItem from="1679895577037" duration="4016000" />
       <workItem from="1679900113114" duration="17000" />
       <workItem from="1679900133632" duration="1323000" />
-      <workItem from="1679901658440" duration="24292000" />
-    </task>
-    <task id="LOCAL-00011" summary="created UserAuthService.java">
-      <created>1679894993043</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1679894993043</updated>
+      <workItem from="1679901658440" duration="31487000" />
     </task>
     <task id="LOCAL-00012" summary="created UserAuthServiceImpl.java">
       <created>1679895018688</created>
@@ -459,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679907547015</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="created addSongsToPlaylist() in UserTrackService">
+      <created>1679928146530</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1679928146530</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +471,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created fields for Playlist.java" />
     <MESSAGE value="created constructors for Playlist.java" />
     <MESSAGE value="created getters and setters for Playlist.java" />
     <MESSAGE value="created hasCode() and equals() for Playlist.java" />
@@ -503,7 +495,8 @@
     <MESSAGE value="added JwtFilter" />
     <MESSAGE value="created application.yml for userAuth" />
     <MESSAGE value="created application.yml for userTrackService" />
-    <option name="LAST_COMMIT_MESSAGE" value="created application.yml for userTrackService" />
+    <MESSAGE value="created addSongsToPlaylist() in UserTrackService" />
+    <option name="LAST_COMMIT_MESSAGE" value="created addSongsToPlaylist() in UserTrackService" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
