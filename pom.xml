@@ -21,6 +21,7 @@
   </properties>
   <modules>
     <module>UserAuthService</module>
+    <module>UserTrackService</module>
   </modules>
 
   <dependencies>
