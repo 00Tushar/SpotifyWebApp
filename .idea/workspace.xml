@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="All methods implemented in Controller" />
+    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created ApiGateway">
+      <change afterPath="$PROJECT_DIR$/SpotifyApiGateway/src/main/java/com/niit/bej/config/RouterConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApiGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +19,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpotifyApiGateway" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UserTrackService" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -75,6 +81,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.UserTrackServiceApplication">
+    <configuration name="SpotifyApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpotifyApiGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.niit.bej.SpotifyApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserAuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserAuthService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.niit.bej.userauthservice.UserAuthServiceApplication" />
@@ -102,14 +115,7 @@
       <workItem from="1679895577037" duration="4016000" />
       <workItem from="1679900113114" duration="17000" />
       <workItem from="1679900133632" duration="1323000" />
-      <workItem from="1679901658440" duration="31909000" />
-    </task>
-    <task id="LOCAL-00013" summary="created UserNotFoundException.java">
-      <created>1679895146254</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1679895146254</updated>
+      <workItem from="1679901658440" duration="32225000" />
     </task>
     <task id="LOCAL-00014" summary="created UserAlreadyExistException.java">
       <created>1679895246930</created>
@@ -447,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679935069570</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="created ApiGateway">
+      <created>1679935223859</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1679935223859</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created getters and setters for Playlist.java" />
     <MESSAGE value="created hasCode() and equals() for Playlist.java" />
     <MESSAGE value="created toString() for Playlist.java" />
     <MESSAGE value="created User.java" />
@@ -491,7 +503,8 @@
     <MESSAGE value="created application.yml for userTrackService" />
     <MESSAGE value="created addSongsToPlaylist() in UserTrackService" />
     <MESSAGE value="All methods implemented in Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="All methods implemented in Controller" />
+    <MESSAGE value="created ApiGateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="created ApiGateway" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
