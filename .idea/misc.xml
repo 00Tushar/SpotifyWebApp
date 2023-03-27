@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/UserAuthService/pom.xml" />
         <option value="$PROJECT_DIR$/UserTrackService/pom.xml" />
+        <option value="$PROJECT_DIR$/SpotifyApiGateway/pom.xml" />
       </list>
     </option>
   </component>

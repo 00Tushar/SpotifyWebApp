@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created addSongsToPlaylist() in UserTrackService">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/controller/UserTrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/controller/UserTrackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="All methods implemented in Controller" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UserTrackService" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpotifyApiGateway" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -107,14 +102,7 @@
       <workItem from="1679895577037" duration="4016000" />
       <workItem from="1679900113114" duration="17000" />
       <workItem from="1679900133632" duration="1323000" />
-      <workItem from="1679901658440" duration="31487000" />
-    </task>
-    <task id="LOCAL-00012" summary="created UserAuthServiceImpl.java">
-      <created>1679895018688</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1679895018688</updated>
+      <workItem from="1679901658440" duration="31909000" />
     </task>
     <task id="LOCAL-00013" summary="created UserNotFoundException.java">
       <created>1679895146254</created>
@@ -452,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679928146530</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="All methods implemented in Controller">
+      <created>1679935069570</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1679935069570</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created constructors for Playlist.java" />
     <MESSAGE value="created getters and setters for Playlist.java" />
     <MESSAGE value="created hasCode() and equals() for Playlist.java" />
     <MESSAGE value="created toString() for Playlist.java" />
@@ -496,7 +490,8 @@
     <MESSAGE value="created application.yml for userAuth" />
     <MESSAGE value="created application.yml for userTrackService" />
     <MESSAGE value="created addSongsToPlaylist() in UserTrackService" />
-    <option name="LAST_COMMIT_MESSAGE" value="created addSongsToPlaylist() in UserTrackService" />
+    <MESSAGE value="All methods implemented in Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="All methods implemented in Controller" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
