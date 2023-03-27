@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created UserAlreadyExistException.java">
-      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/repository/UserAuthRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/repository/UserAuthRepository.java" afterDir="false" />
+    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created register() in Controller">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UserAuthService" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UserTrackService" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,23 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;T:/BackendCourse/MovieApplication&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9c3a810fb3f1aa11621dc3e56c5fa31d&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.niit.bej.userauthservice.security" />
       <recent name="com.niit.bej.userauthservice.service" />
     </key>
   </component>
@@ -79,6 +82,9 @@
       <option name="presentableId" value="Default" />
       <updated>1679893334833</updated>
       <workItem from="1679893336050" duration="2082000" />
+      <workItem from="1679895577037" duration="4016000" />
+      <workItem from="1679900113114" duration="17000" />
+      <workItem from="1679900133632" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1679893537497</created>
@@ -178,7 +184,84 @@
       <option name="project" value="LOCAL" />
       <updated>1679895246930</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="created login method in UserAuthService">
+      <created>1679895729971</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679895729971</updated>
+    </task>
+    <task id="LOCAL-00016" summary="created register method in UserAuthService">
+      <created>1679895858382</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679895858382</updated>
+    </task>
+    <task id="LOCAL-00017" summary="injected UserAuthRepository in UserServiceImpl">
+      <created>1679896030696</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679896030696</updated>
+    </task>
+    <task id="LOCAL-00018" summary="implemented login method in UserAuthServiceImpl.java">
+      <created>1679896467002</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679896467002</updated>
+    </task>
+    <task id="LOCAL-00019" summary="implemented register method in UserAuthServiceImpl.java">
+      <created>1679896623404</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679896623404</updated>
+    </task>
+    <task id="LOCAL-00020" summary="created UserAuthController.java">
+      <created>1679896678445</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679896678445</updated>
+    </task>
+    <task id="LOCAL-00021" summary="injected UserAuthService in Controller">
+      <created>1679896724545</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679896724545</updated>
+    </task>
+    <task id="LOCAL-00022" summary="created SecurityTokenGenerator.java">
+      <created>1679897378491</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679897378491</updated>
+    </task>
+    <task id="LOCAL-00023" summary="created JwtSecurityTokenGenerator.java">
+      <created>1679897742958</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679897742958</updated>
+    </task>
+    <task id="LOCAL-00024" summary="created login() in Controller">
+      <created>1679897943017</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679897943017</updated>
+    </task>
+    <task id="LOCAL-00025" summary="created register() in Controller">
+      <created>1679899584934</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679899584934</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +294,18 @@
     <MESSAGE value="created UserAuthServiceImpl.java" />
     <MESSAGE value="created UserNotFoundException.java" />
     <MESSAGE value="created UserAlreadyExistException.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="created UserAlreadyExistException.java" />
+    <MESSAGE value="created login method in UserAuthService" />
+    <MESSAGE value="created register method in UserAuthService" />
+    <MESSAGE value="injected UserAuthRepository in UserServiceImpl" />
+    <MESSAGE value="implemented login method in UserAuthServiceImpl.java" />
+    <MESSAGE value="implemented register method in UserAuthServiceImpl.java" />
+    <MESSAGE value="created UserAuthController.java" />
+    <MESSAGE value="injected UserAuthService in Controller" />
+    <MESSAGE value="created SecurityTokenGenerator.java" />
+    <MESSAGE value="created JwtSecurityTokenGenerator.java" />
+    <MESSAGE value="created login() in Controller" />
+    <MESSAGE value="created register() in Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="created register() in Controller" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
