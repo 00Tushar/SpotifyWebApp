@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created register() in Controller">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created Playlist.java">
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/domain/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/domain/Playlist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +64,24 @@
       <recent name="com.niit.bej.userauthservice.service" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserAuthServiceApplication">
     <configuration name="UserAuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserAuthService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.niit.bej.userauthservice.UserAuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTrackServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="UserTrackService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.niit.bej.UserTrackServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,7 +98,7 @@
       <workItem from="1679893336050" duration="2082000" />
       <workItem from="1679895577037" duration="4016000" />
       <workItem from="1679900113114" duration="17000" />
-      <workItem from="1679900133632" duration="145000" />
+      <workItem from="1679900133632" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1679893537497</created>
@@ -261,7 +275,70 @@
       <option name="project" value="LOCAL" />
       <updated>1679899584934</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="initial commit for UserTrackServiceApplication.java">
+      <created>1679900367083</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679900367083</updated>
+    </task>
+    <task id="LOCAL-00027" summary="build parent and child relation">
+      <created>1679900484145</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679900484145</updated>
+    </task>
+    <task id="LOCAL-00028" summary="created Song.java">
+      <created>1679900936033</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679900936033</updated>
+    </task>
+    <task id="LOCAL-00029" summary="created fields for Song.java">
+      <created>1679901184341</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901184341</updated>
+    </task>
+    <task id="LOCAL-00030" summary="created constructors for Song.java">
+      <created>1679901218053</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901218053</updated>
+    </task>
+    <task id="LOCAL-00031" summary="created getters and setters for Song.java">
+      <created>1679901237403</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901237403</updated>
+    </task>
+    <task id="LOCAL-00032" summary="created hasCode() and equals() for Song.java">
+      <created>1679901264879</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901264879</updated>
+    </task>
+    <task id="LOCAL-00033" summary="created toString() for Song.java">
+      <created>1679901286052</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901286052</updated>
+    </task>
+    <task id="LOCAL-00034" summary="created Playlist.java">
+      <created>1679901387316</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901387316</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,15 +357,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="initial commit for UserAuthServiceApplication.java" />
-    <MESSAGE value="relation build between parent and child" />
-    <MESSAGE value="created User.java" />
-    <MESSAGE value="added fields for User.java" />
-    <MESSAGE value="added constructors for User.java" />
-    <MESSAGE value="added getters and setters for User.java" />
-    <MESSAGE value="added hasCode() and equals() for User.java" />
-    <MESSAGE value="added toString() for User.java" />
     <MESSAGE value="created UserAuthRepository.java" />
     <MESSAGE value="created UserAuthService.java" />
     <MESSAGE value="created UserAuthServiceImpl.java" />
@@ -305,7 +373,16 @@
     <MESSAGE value="created JwtSecurityTokenGenerator.java" />
     <MESSAGE value="created login() in Controller" />
     <MESSAGE value="created register() in Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="created register() in Controller" />
+    <MESSAGE value="initial commit for UserTrackServiceApplication.java" />
+    <MESSAGE value="build parent and child relation" />
+    <MESSAGE value="created Song.java" />
+    <MESSAGE value="created fields for Song.java" />
+    <MESSAGE value="created constructors for Song.java" />
+    <MESSAGE value="created getters and setters for Song.java" />
+    <MESSAGE value="created hasCode() and equals() for Song.java" />
+    <MESSAGE value="created toString() for Song.java" />
+    <MESSAGE value="created Playlist.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="created Playlist.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
