@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created Playlist.java">
-      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/domain/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/domain/Playlist.java" afterDir="false" />
+    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created application.yml for userTrackService">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/controller/UserAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/controller/UserAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/security/JwtSecurityTokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/security/JwtSecurityTokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/UserTrackServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/UserTrackServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/controller/UserTrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/controller/UserTrackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/proxy/UserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/proxy/UserProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,25 +51,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;T:/BackendCourse/MovieApplication&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9c3a810fb3f1aa11621dc3e56c5fa31d&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "T:/BackendCourse/MovieApplication",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "80a6af4170356719bc93c22e423ccf71",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.niit.bej.service" />
       <recent name="com.niit.bej.userauthservice.security" />
       <recent name="com.niit.bej.userauthservice.service" />
     </key>
@@ -71,7 +86,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserAuthServiceApplication">
+  <component name="RunManager" selected="Spring Boot.UserTrackServiceApplication">
     <configuration name="UserAuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="UserAuthService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.niit.bej.userauthservice.UserAuthServiceApplication" />
@@ -99,76 +114,7 @@
       <workItem from="1679895577037" duration="4016000" />
       <workItem from="1679900113114" duration="17000" />
       <workItem from="1679900133632" duration="1323000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1679893537497</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679893537497</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit for UserAuthServiceApplication.java">
-      <created>1679893827747</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679893827747</updated>
-    </task>
-    <task id="LOCAL-00003" summary="relation build between parent and child">
-      <created>1679894390656</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1679894390656</updated>
-    </task>
-    <task id="LOCAL-00004" summary="created User.java">
-      <created>1679894456489</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1679894456489</updated>
-    </task>
-    <task id="LOCAL-00005" summary="added fields for User.java">
-      <created>1679894666422</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1679894666422</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added constructors for User.java">
-      <created>1679894692512</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1679894692512</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added getters and setters for User.java">
-      <created>1679894722543</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1679894722543</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added hasCode() and equals() for User.java">
-      <created>1679894745776</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1679894745776</updated>
-    </task>
-    <task id="LOCAL-00009" summary="added toString() for User.java">
-      <created>1679894764879</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1679894764879</updated>
-    </task>
-    <task id="LOCAL-00010" summary="created UserAuthRepository.java">
-      <created>1679894881372</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1679894881372</updated>
+      <workItem from="1679901658440" duration="24292000" />
     </task>
     <task id="LOCAL-00011" summary="created UserAuthService.java">
       <created>1679894993043</created>
@@ -338,7 +284,182 @@
       <option name="project" value="LOCAL" />
       <updated>1679901387316</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="created fields for Playlist.java">
+      <created>1679901886609</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901886609</updated>
+    </task>
+    <task id="LOCAL-00036" summary="created constructors for Playlist.java">
+      <created>1679901908950</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901908950</updated>
+    </task>
+    <task id="LOCAL-00037" summary="created getters and setters for Playlist.java">
+      <created>1679901923745</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901923745</updated>
+    </task>
+    <task id="LOCAL-00038" summary="created hasCode() and equals() for Playlist.java">
+      <created>1679901957183</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901957183</updated>
+    </task>
+    <task id="LOCAL-00039" summary="created toString() for Playlist.java">
+      <created>1679901974758</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1679901974758</updated>
+    </task>
+    <task id="LOCAL-00040" summary="created User.java">
+      <created>1679902076833</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902076833</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added fields for User.java">
+      <created>1679902220930</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902220930</updated>
+    </task>
+    <task id="LOCAL-00042" summary="added constructors for User.java">
+      <created>1679902253734</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902253734</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added getters and setters for User.java">
+      <created>1679902275182</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902275182</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added hasCode() and equals() for User.java">
+      <created>1679902303785</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902303785</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added toString() for User.java">
+      <created>1679902316912</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902316912</updated>
+    </task>
+    <task id="LOCAL-00046" summary="created UserTrackRepository.java">
+      <created>1679902434341</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902434341</updated>
+    </task>
+    <task id="LOCAL-00047" summary="created UserNotFoundException.java">
+      <created>1679902502845</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902502845</updated>
+    </task>
+    <task id="LOCAL-00048" summary="created UserAlreadyExistException.java">
+      <created>1679902577102</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902577102</updated>
+    </task>
+    <task id="LOCAL-00049" summary="created TrackNotFoundException.java">
+      <created>1679902640440</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902640440</updated>
+    </task>
+    <task id="LOCAL-00050" summary="created TrackAlreadyExistException.java">
+      <created>1679902803892</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902803893</updated>
+    </task>
+    <task id="LOCAL-00051" summary="created UserTrackService.java">
+      <created>1679902833593</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902833593</updated>
+    </task>
+    <task id="LOCAL-00052" summary="created UserTrackServiceImpl.java">
+      <created>1679902857548</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902857548</updated>
+    </task>
+    <task id="LOCAL-00053" summary="created registerUser() for UserTrackService.java">
+      <created>1679902941145</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902941145</updated>
+    </task>
+    <task id="LOCAL-00054" summary="created PlaylistAlreadyExistException.java">
+      <created>1679903472101</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1679903472101</updated>
+    </task>
+    <task id="LOCAL-00055" summary="created PlaylistNotFoundException.java">
+      <created>1679903552683</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1679903552683</updated>
+    </task>
+    <task id="LOCAL-00056" summary="injected UserTrackRepository in UserTrackServiceImpl.java">
+      <created>1679904186602</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1679904186603</updated>
+    </task>
+    <task id="LOCAL-00057" summary="added JwtFilter">
+      <created>1679907049760</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1679907049760</updated>
+    </task>
+    <task id="LOCAL-00058" summary="created application.yml for userAuth">
+      <created>1679907472583</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1679907472584</updated>
+    </task>
+    <task id="LOCAL-00059" summary="created application.yml for userTrackService">
+      <created>1679907547015</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1679907547015</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,32 +478,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created UserAuthRepository.java" />
-    <MESSAGE value="created UserAuthService.java" />
-    <MESSAGE value="created UserAuthServiceImpl.java" />
+    <MESSAGE value="created fields for Playlist.java" />
+    <MESSAGE value="created constructors for Playlist.java" />
+    <MESSAGE value="created getters and setters for Playlist.java" />
+    <MESSAGE value="created hasCode() and equals() for Playlist.java" />
+    <MESSAGE value="created toString() for Playlist.java" />
+    <MESSAGE value="created User.java" />
+    <MESSAGE value="added fields for User.java" />
+    <MESSAGE value="added constructors for User.java" />
+    <MESSAGE value="added getters and setters for User.java" />
+    <MESSAGE value="added hasCode() and equals() for User.java" />
+    <MESSAGE value="added toString() for User.java" />
+    <MESSAGE value="created UserTrackRepository.java" />
     <MESSAGE value="created UserNotFoundException.java" />
     <MESSAGE value="created UserAlreadyExistException.java" />
-    <MESSAGE value="created login method in UserAuthService" />
-    <MESSAGE value="created register method in UserAuthService" />
-    <MESSAGE value="injected UserAuthRepository in UserServiceImpl" />
-    <MESSAGE value="implemented login method in UserAuthServiceImpl.java" />
-    <MESSAGE value="implemented register method in UserAuthServiceImpl.java" />
-    <MESSAGE value="created UserAuthController.java" />
-    <MESSAGE value="injected UserAuthService in Controller" />
-    <MESSAGE value="created SecurityTokenGenerator.java" />
-    <MESSAGE value="created JwtSecurityTokenGenerator.java" />
-    <MESSAGE value="created login() in Controller" />
-    <MESSAGE value="created register() in Controller" />
-    <MESSAGE value="initial commit for UserTrackServiceApplication.java" />
-    <MESSAGE value="build parent and child relation" />
-    <MESSAGE value="created Song.java" />
-    <MESSAGE value="created fields for Song.java" />
-    <MESSAGE value="created constructors for Song.java" />
-    <MESSAGE value="created getters and setters for Song.java" />
-    <MESSAGE value="created hasCode() and equals() for Song.java" />
-    <MESSAGE value="created toString() for Song.java" />
-    <MESSAGE value="created Playlist.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="created Playlist.java" />
+    <MESSAGE value="created TrackNotFoundException.java" />
+    <MESSAGE value="created TrackAlreadyExistException.java" />
+    <MESSAGE value="created UserTrackService.java" />
+    <MESSAGE value="created UserTrackServiceImpl.java" />
+    <MESSAGE value="created registerUser() for UserTrackService.java" />
+    <MESSAGE value="created PlaylistAlreadyExistException.java" />
+    <MESSAGE value="created PlaylistNotFoundException.java" />
+    <MESSAGE value="injected UserTrackRepository in UserTrackServiceImpl.java" />
+    <MESSAGE value="added JwtFilter" />
+    <MESSAGE value="created application.yml for userAuth" />
+    <MESSAGE value="created application.yml for userTrackService" />
+    <option name="LAST_COMMIT_MESSAGE" value="created application.yml for userTrackService" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
