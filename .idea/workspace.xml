@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="created RouterConfiguration.java">
+    <list default="true" id="dd7e5669-dce7-45c6-b459-198d5996142c" name="Changes" comment="implement moviesRoutes in RouterConfiguration.java">
+      <change afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/repository/UserSongRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpotifyApiGateway/src/main/java/com/niit/bej/config/RouterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApiGateway/src/main/java/com/niit/bej/config/RouterConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpotifyApiGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotifyApiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpotifyApiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/controller/UserAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/controller/UserAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/security/JwtSecurityTokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/niit/bej/userauthservice/security/JwtSecurityTokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/controller/UserTrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/controller/UserTrackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/domain/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/domain/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserTrackService/src/main/java/com/niit/bej/service/UserTrackServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/bej/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/niit/bej/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpotifyApiGateway" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,13 +65,18 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "T:/BackendCourse/MovieApplication",
+    "last_opened_file_path": "T:/BackendCourse/MyMovieApp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "80a6af4170356719bc93c22e423ccf71",
+    "spring.configuration.checksum": "70f00d1411322fb503c45ded2836712c",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -79,7 +93,42 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserTrackServiceApplication">
+  <component name="RunManager" selected="Java Scratch.Scratch (4)">
+    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch (2)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch (3)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch (4)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpotifyApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SpotifyApiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.niit.bej.SpotifyApiGatewayApplication" />
@@ -101,6 +150,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Java Scratch.Scratch (4)" />
+        <item itemvalue="Java Scratch.Scratch (3)" />
+        <item itemvalue="Java Scratch.Scratch (1)" />
+        <item itemvalue="Java Scratch.Scratch (2)" />
+        <item itemvalue="Java Scratch.Scratch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,14 +172,31 @@
       <workItem from="1679895577037" duration="4016000" />
       <workItem from="1679900113114" duration="17000" />
       <workItem from="1679900133632" duration="1323000" />
-      <workItem from="1679901658440" duration="33010000" />
-    </task>
-    <task id="LOCAL-00015" summary="created login method in UserAuthService">
-      <created>1679895729971</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1679895729971</updated>
+      <workItem from="1679901658440" duration="34682000" />
+      <workItem from="1679940112200" duration="6514000" />
+      <workItem from="1679974548579" duration="24502000" />
+      <workItem from="1680025184027" duration="10132000" />
+      <workItem from="1680060397026" duration="9648000" />
+      <workItem from="1680082951103" duration="967000" />
+      <workItem from="1680094346689" duration="7066000" />
+      <workItem from="1680111958011" duration="897000" />
+      <workItem from="1680147097880" duration="4473000" />
+      <workItem from="1680182901755" duration="1241000" />
+      <workItem from="1680197555349" duration="963000" />
+      <workItem from="1680233598280" duration="2749000" />
+      <workItem from="1680285054089" duration="832000" />
+      <workItem from="1680327552897" duration="2655000" />
+      <workItem from="1680341560880" duration="70000" />
+      <workItem from="1680342418552" duration="3122000" />
+      <workItem from="1680364942037" duration="714000" />
+      <workItem from="1680411036925" duration="4471000" />
+      <workItem from="1680455249356" duration="1997000" />
+      <workItem from="1680491710483" duration="11258000" />
+      <workItem from="1680526187609" duration="4811000" />
+      <workItem from="1680533984586" duration="772000" />
+      <workItem from="1680603293553" duration="1313000" />
+      <workItem from="1680665263352" duration="4023000" />
+      <workItem from="1681097760557" duration="8651000" />
     </task>
     <task id="LOCAL-00016" summary="created register method in UserAuthService">
       <created>1679895858382</created>
@@ -459,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679935583029</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="implement moviesRoutes in RouterConfiguration.java">
+      <created>1679936831839</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1679936831839</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +560,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created toString() for Playlist.java" />
     <MESSAGE value="created User.java" />
     <MESSAGE value="added fields for User.java" />
     <MESSAGE value="added constructors for User.java" />
@@ -503,7 +584,8 @@
     <MESSAGE value="All methods implemented in Controller" />
     <MESSAGE value="created ApiGateway" />
     <MESSAGE value="created RouterConfiguration.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="created RouterConfiguration.java" />
+    <MESSAGE value="implement moviesRoutes in RouterConfiguration.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement moviesRoutes in RouterConfiguration.java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
